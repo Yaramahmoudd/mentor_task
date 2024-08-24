@@ -66,12 +66,11 @@ class _LoginScreenState extends State<LoginScreen> {
                         children: [
                           Column(
                             children: [
-                              //Image.asset('assets/images/profile.png',width: 90,height: 90,),
+                              //Image.asset('assets/images/profile.png',width: 100,height: 100,),
                               Text(
                                 'login',
                                 style:
-                                //TextStyles.font32WhiteRegular.copyWith(fontFamily: 'Pacifico'),
-                                  TextStyle(fontSize: 35.sp, color: Colors.black, fontFamily: 'Pacifico',),
+                                TextStyles.font35BlackRegular.copyWith(fontFamily: 'Pacifico'),
                               ),
                               verticalSpace(25),
                               const AppTextFormField(
